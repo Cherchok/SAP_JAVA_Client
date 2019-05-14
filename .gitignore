@@ -21,3 +21,13 @@
 *.rar
 
 
+Будет удалено .idea/compiler.xml
+Будет удалено .idea/dictionaries/
+Будет удалено .idea/inspectionProfiles/
+Будет удалено .idea/libraries/
+Будет удалено .idea/misc.xml
+Будет удалено .idea/modules.xml
+Будет удалено .idea/workspace.xml
+Будет удалено src/main/resources/
+Будет удалено src/test/
+Будет удалено target/generated-sources/
