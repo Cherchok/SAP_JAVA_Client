@@ -13,6 +13,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+@SuppressWarnings("unused")
 public class SAPdata extends JFrame {
     private static String tabName;
     private static String rowQuan;

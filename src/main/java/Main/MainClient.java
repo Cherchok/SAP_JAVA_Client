@@ -37,11 +37,11 @@ public class MainClient {
                 sapData.setLocationRelativeTo(null);
                 sapData.setVisible(true);
 
-                //returns sap data Map
-                Map<String, List<String>> dataMap = sapData.getData();
-                for (String k : dataMap.keySet()) {
-                    System.out.println(k + ": " + dataMap.get(k));
-                }
+//                //returns sap data Map
+//                Map<String, List<String>> dataMap = sapData.getData();
+//                for (String k : dataMap.keySet()) {
+//                    System.out.println(k + ": " + dataMap.get(k));
+//                }
             } catch (Exception e) {
                 e.printStackTrace();
             }
