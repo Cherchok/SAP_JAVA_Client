@@ -15,8 +15,8 @@ import java.net.URL;
  * JAX-WS RI 2.2.7-b01
  * Generated source version: 2.2
  */
-@WebServiceClient(name = "WebDataImplService", targetNamespace = "http://ws/", wsdlLocation = "http://localhost:8082/ws/webdata?wsdl")
-//"http://localhost:8082/ws/webdata?wsdl"
+@WebServiceClient(name = "WebDataImplService", targetNamespace = "http://ws/",
+        wsdlLocation = "http://localhost:8082/ws/webdata?wsdl") //"http://localhost:8082/ws/webdata?wsdl"
 public class WebDataImplService
         extends Service {
 
@@ -29,7 +29,7 @@ public class WebDataImplService
         WebServiceException e = null;
         String path;
         ResourceManager rm = new ResourceManager();
-        path = rm.getValues("protocol") + rm.getValues("port") + rm.getValues("url");
+        path = rm.getValues("ip") + rm.getValues("port") + rm.getValues("uri");
         try {
             url = new URL(path); //"http://localhost:8081/ws/webdata?wsdl"
         } catch (MalformedURLException ex) {

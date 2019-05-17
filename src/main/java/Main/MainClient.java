@@ -3,8 +3,8 @@ package Main;
 import sap.SAPdata;
 
 import javax.swing.*;
-import java.util.List;
-import java.util.Map;
+//import java.util.List;
+//import java.util.Map;
 
 public class MainClient {
 
